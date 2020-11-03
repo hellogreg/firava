@@ -2,6 +2,8 @@
 
 Firava adapts Mozilla's open source [Fira Sans](https://github.com/mozilla/Fira) typeface into a variable version.
 
+Current version: 5.000 (Previous Fira Sans version was 4.202).
+
 ## Features
 
 * The typeface includes regular and italic styles.
