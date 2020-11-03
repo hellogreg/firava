@@ -18,6 +18,8 @@ I'm using the following tools to produce Firava:
 
 I've also found Travis Kochel's [I can Variable Font](https://github.com/scribbletone/i-can-variable-font) super-helpful throughout this process.
 
+## Licensing
+
 Firava and Fira Sans are licensed under the SIL Open Font License, Version 1.1:
 http://scripts.sil.org/OFL
 
