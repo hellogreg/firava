@@ -16,7 +16,9 @@ I'm using the following tools to produce Firava:
 * [Glyphhanger](https://github.com/filamentgroup/glyphhanger)
 * [woff2](https://github.com/google/woff2)
 
-I've also found Travis Kochel's [I can Variable Font](https://github.com/scribbletone/i-can-variable-font) super-helpful throughout this process.
+I've found Travis Kochel's [I can Variable Font](https://github.com/scribbletone/i-can-variable-font) super-helpful throughout this process.
+
+And [Wakamai Fondue](https://wakamaifondue.com/) is indispensable for testing variable fonts.
 
 ## Licensing
 
