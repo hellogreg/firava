@@ -1,6 +1,6 @@
 # Firava
 
-Firava adapts the open source [Fira Sans](https://github.com/mozilla/Fira) typeface into a variable version.
+Firava adapts Mozilla's open source [Fira Sans](https://github.com/mozilla/Fira) typeface into a variable version.
 
 ## Features
 
@@ -17,3 +17,8 @@ I'm using the following tools to produce Firava:
 * [woff2](https://github.com/google/woff2)
 
 I've also found Travis Kochel's [I can Variable Font](https://github.com/scribbletone/i-can-variable-font) super-helpful throughout this process.
+
+Firava and Fira Sans are licensed under the SIL Open Font License, Version 1.1:
+http://scripts.sil.org/OFL
+
+Digital data for Fira Sans is copyright (c) 2012-2015, The Mozilla Foundation and Telefonica S.A.
