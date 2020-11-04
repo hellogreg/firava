@@ -112,6 +112,17 @@ label {
   user-select: none;
 }
 
+.slidelabel {
+  margin-right: .5rem;
+}
+
+#slidevalue {
+  background-color: #fe14;
+  font-variation-settings: "wght"500;
+  margin-left: .5rem;
+  padding: 0 .125rem;
+}
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
@@ -151,14 +162,14 @@ h1, h2 {
 }
 
 h1 {
-  font-weight: 800;
+  font-variation-settings: "wght"800;
 }
 
 h2 {
   border-bottom: 1px solid #999;
-  color: #666;
+  color: #6f6f6f;
   font-size: .75rem;
-  font-weight: 500;
+  font-variation-settings: "wght"500;
   margin-bottom: .5rem;
   margin-top: 2em;
   text-transform: uppercase;
@@ -178,7 +189,6 @@ p {
 
 h3, .samples p {
   font-style: var(--font-style, normal);
-  font-weight: var(--font-weight-sample, 400);
   font-variation-settings: "wght"var(--font-weight-sample, 400);
 }
 
