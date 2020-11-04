@@ -29,6 +29,11 @@
 
     let $checkdark = document.getElementById("checkdark");
     let $checkitalic = document.getElementById("checkitalic");
+    let $slideweight = document.getElementById("slideweight");
+
+    $checkdark.checked = false;
+    $checkitalic.checked = false;
+    $slideweight.value = 400;
 
     $checkdark.addEventListener("change", e => {
       if (e.target.checked) {
@@ -52,6 +57,11 @@
           log(`Unchecked!`);
         }
       }
+    });
+
+    $slideweight.addEventListener("input", e => {
+      log($slideweight.value);
+      root.style.setProperty("--font-weight-sample", $slideweight.value);
     });
 
   }

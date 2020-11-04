@@ -1,3 +1,6 @@
+// FONT IMPORTS
+//
+
 @font-face {
   src: url('https://hellogreg.github.io/firava/fonts/Firava.woff2') format('woff2-variations');
   font-family: 'firava';
@@ -8,6 +11,10 @@
   font-family: 'firava';
   font-style: italic;
 }
+
+
+// SASS VARS AND MIXINS
+//
 
 @mixin darkmode-vars {
 
@@ -41,11 +48,17 @@
 }
 
 
+// MEDIA QUERIES AND JAVASCRIPT HOOKS
+//
 
 @media (min-width: 600px) {
   :root {
     --font-size-base: 137.5%;
   }
+}
+
+:root {
+  --font-weight-sample: 400;
 }
 
 .darkmode {
@@ -56,6 +69,9 @@
   --font-style: italic;
 }
 
+
+// DEFAULT SITE STYLES
+//
 
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -74,8 +90,8 @@ html {
 }
 
 body {
-  background-color: var(--background-color, #fafafa);
-  color: var(--color, #111);
+  background-color: var(--background-color, #fff);
+  color: var(--color, #222);
   font-family: "firava", "system-ui", sans-serif;
   line-height: 1.5;
   min-height: 100vh;
@@ -143,17 +159,27 @@ h2 {
   color: #666;
   font-size: .75rem;
   font-weight: 500;
-  margin-bottom: .125rem;
+  margin-bottom: .5rem;
   margin-top: 2em;
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
 }
 
 .overview p {
   margin-top: 1rem;
 }
 
-.samples p {
+h3, .samples p {
   font-style: var(--font-style, normal);
+  font-weight: var(--font-weight-sample, 400);
+  font-variation-settings: "wght"var(--font-weight-sample, 400);
 }
 
 p.charmap {
