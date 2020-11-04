@@ -36,7 +36,7 @@ body {
   scroll-behavior: smooth;
 }
 
-p:nth-child(even) {
+p:nth-of-type(odd) {
   font-style: italic;
 }
 
