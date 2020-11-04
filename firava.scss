@@ -26,12 +26,16 @@ body, h1, h2, h3, h4, h5, h6, p, li, figure, figcaption, blockquote, dl, dd {
 }
 
 html {
-  font-size: var(--font-size-base, 100%);
+  font-size: 100%; // In case clamp isn't supported.
+  font-size: calc(clamp(1em, .5em + 1vw, 2em));
+  text-rendering: optimizeLegibility;
 }
 
 body {
+  background: #fafafa;
+  color: #111;
   font-family: "firava", "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Verdana, sans-serif;
-  line-height: 1.65;
+  line-height: 1.5;
   min-height: 100vh;
   scroll-behavior: smooth;
 }
@@ -84,19 +88,16 @@ header, footer, main {
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 800;
 }
 
-summary {
-  cursor: pointer;
-}
-
-summary>* {
-  display: inline-block;
-}
-
-main *+* {
-  margin-top: 1em;
+h2 {
+  border-bottom: 1px solid #999;
+  color: #666;
+  font-size: .75rem;
+  font-weight: 500;
+  margin-top: 2em;
+  text-transform: uppercase;
 }
 
 *:focus {
@@ -113,5 +114,3 @@ a.skip:not(:focus):not(:active) {
   white-space: nowrap;
   width: 1px;
 }
-
-/*# sourceMappingURL=barebones.css.map */
