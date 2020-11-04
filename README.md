@@ -4,6 +4,8 @@ Firava adapts Mozilla's open source [Fira Sans](https://github.com/mozilla/Fira)
 
 Current version: 5.000 (Previous Fira Sans version was 4.202).
 
+[View the sample page.](https://firava.netlify.app/)
+
 ## Features
 
 * The typeface includes regular and italic styles.
@@ -22,9 +24,11 @@ I've found Travis Kochel's [I can Variable Font](https://github.com/scribbletone
 
 And [Wakamai Fondue](https://wakamaifondue.com/) is indispensable for testing variable fonts.
 
-## Licensing
+## Credits/Licensing
 
 Firava and Fira Sans are licensed under the SIL Open Font License, Version 1.1:
 http://scripts.sil.org/OFL
 
 Digital data for Fira Sans is copyright (c) 2012-2015, The Mozilla Foundation and Telefonica S.A.
+
+Firava was produced by Greg Gibson ([@hellogreg](https://twitter.com/hellogreg/))
