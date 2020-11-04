@@ -48,10 +48,6 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  @include darkmode-vars;
-}
-
 .darkmode {
   @include darkmode-vars;
 }
