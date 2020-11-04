@@ -75,15 +75,11 @@ html {
 
 body {
   background-color: var(--background-color, #fafafa);
-  color: var(--color, #060606);
+  color: var(--color, #111);
   font-family: "firava", "system-ui", sans-serif;
   line-height: 1.5;
   min-height: 100vh;
   scroll-behavior: smooth;
-}
-
-p:nth-of-type(odd) {
-  //font-style: italic;
 }
 
 img {
@@ -147,6 +143,7 @@ h2 {
   color: #666;
   font-size: .75rem;
   font-weight: 500;
+  margin-bottom: .125rem;
   margin-top: 2em;
   text-transform: uppercase;
 }
@@ -157,6 +154,10 @@ h2 {
 
 .samples p {
   font-style: var(--font-style, normal);
+}
+
+p.charmap {
+  letter-spacing: .2ch;
 }
 
 *:focus {
