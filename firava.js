@@ -19,6 +19,14 @@
 
   function init() {
 
+    document.fonts.ready.then(function () {
+      let isFiravaLoaded = document.fonts.check('1em firava');
+      log(`Firava loaded: ${isFiravaLoaded}`);
+      if (isFiravaLoaded) {
+        //
+      }
+    });
+
     let $checkdark = document.getElementById("checkdark");
     let $checkitalic = document.getElementById("checkitalic");
 
