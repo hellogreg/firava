@@ -120,7 +120,7 @@ label {
 
 #slidevalue {
   background-color: #fe14;
-  font-variation-settings: "wght"500;
+  font-weight: 500;
   margin-left: .5rem;
   padding: 0 .125rem;
 }
@@ -164,14 +164,14 @@ h1, h2 {
 }
 
 h1 {
-  font-variation-settings: "wght"800;
+  font-weight: 800;
 }
 
 h2 {
   border-bottom: 1px solid #999;
   color: #6f6f6f;
   font-size: .75rem;
-  font-variation-settings: "wght"500;
+  font-weight: 500;
   margin-bottom: .5rem;
   margin-top: 2em;
   text-transform: uppercase;
@@ -191,7 +191,7 @@ p {
 
 h3, .samples p {
   font-style: var(--font-style, normal);
-  font-variation-settings: "wght"var(--font-weight-sample, 400);
+  font-weight: var(--font-weight-sample, 400);
 }
 
 p.charmap {
