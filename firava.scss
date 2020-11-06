@@ -3,12 +3,14 @@
 
 @font-face {
   src: url('https://hellogreg.github.io/firava/fonts/Firava.woff2') format('woff2-variations');
+  font-display: swap;
   font-family: 'firava';
   font-weight: 100 900;
 }
 
 @font-face {
   src: url('https://hellogreg.github.io/firava/fonts/FiravaItalic.woff2') format('woff2-variations');
+  font-display: swap;
   font-family: 'firava';
   font-style: italic;
   font-weight: 100 900;
