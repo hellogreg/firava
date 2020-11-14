@@ -33,4 +33,4 @@ Firava and Fira Sans are licensed under the SIL Open Font License, Version 1.1:
 
 Digital data for Fira Sans is copyright (c) 2012-2015, The Mozilla Foundation and Telefonica S.A.
 
-Firava was produced by Greg Finn Gibson ([@hellogreg](https://twitter.com/hellogreg/)).
+Firava was produced by Greg Finn Gibson ([@hellogreg](https://twitter.com/hellogreg/) | [hellogreg.org](https://hellogreg.org)).
