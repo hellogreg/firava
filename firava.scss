@@ -186,9 +186,14 @@ p {
 }
 
 #controls {
+  //background: #fed;
   display: flex;
   flex-wrap: wrap;
   padding: .25rem;
+
+  > * {
+    align-self: flex-end; // aligns text in firefox.
+  }
 }
 
 .slidelabel {
