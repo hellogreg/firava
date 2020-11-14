@@ -25,7 +25,7 @@ I've found Travis Kochel's [I Can Variable Font](https://github.com/scribbletone
 
 [Wakamai Fondue](https://wakamaifondue.com/) is indispensable for testing variable fonts.
 
-And I used [my own Glytter tool](https://hellogreg.github.io/glytter/) to view/copy/paste all the font's characters for the sample page.
+And I used [my own Glytter tool](https://hellogreg.github.io/glytter/) to view/copy/paste the full character set for the sample page.
 
 ## Credits/Licensing
 
