@@ -29,8 +29,8 @@ And I used [my own Glytter tool](https://hellogreg.github.io/glytter/) to view/c
 ## Credits/Licensing
 
 Firava and Fira Sans are licensed under the SIL Open Font License, Version 1.1:
-[http://scripts.sil.org/OFL](http://scripts.sil.org/OFL)
+[http://scripts.sil.org/OFL](http://scripts.sil.org/OFL).
 
-Digital data for Fira Sans is copyright (c) 2012-2015, The Mozilla Foundation and Telefonica S.A.
+Fira Sans digital data is ©2012-15, The Mozilla Foundation and Telefonica S.A.
 
-Firava was produced by Greg Finn Gibson ([@hellogreg](https://twitter.com/hellogreg/) | [hellogreg.org](https://hellogreg.org)). I generated it for a simple reason: I love Fira Sans and wanted to use it for a project, but I needed a variable font to maximize loading speed for all possible content!
+Firava was produced by Greg Finn Gibson ([@hellogreg](https://twitter.com/hellogreg/) | [hellogreg.org](https://hellogreg.org)). I generated it for a simple reason: I love Fira Sans and wanted to use it for a project, but I needed a variable font!
