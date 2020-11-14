@@ -2,8 +2,6 @@
 
 Firava adapts Mozilla's open source [Fira Sans](https://github.com/mozilla/Fira) typeface into a variable version.
 
-Current version: 5.000 (Previous Fira Sans version was 4.202).
-
 **[View the sample page.](https://firava.netlify.app/)**
 
 **Download the .ttf/.woff2 fonts from [the /fonts folder](https://github.com/hellogreg/firava/tree/main/fonts) here.**
@@ -13,6 +11,7 @@ Current version: 5.000 (Previous Fira Sans version was 4.202).
 * The typeface includes regular and italic styles.
 * Currently, the typeface has a single variable axis, weight, which ranges from 100 (Thin) to 900 (Black), with a default weight of 400.
 * The source version of Fira has nearly 1,700 characters. Firava is currently limited to just over 450.
+* Current version: 5.000 (Previous Fira Sans version was 4.202).
 
 ## Tools
 
