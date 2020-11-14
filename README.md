@@ -4,7 +4,7 @@ Firava adapts Mozilla's open source [Fira Sans](https://github.com/mozilla/Fira)
 
 Current version: 5.000 (Previous Fira Sans version was 4.202).
 
-[View the sample page.](https://firava.netlify.app/)
+**[View the sample page.](https://firava.netlify.app/)**
 
 ## Features
 
@@ -20,15 +20,17 @@ I'm using the following tools to produce Firava:
 * [Glyphhanger](https://github.com/filamentgroup/glyphhanger)
 * [woff2](https://github.com/google/woff2)
 
-I've found Travis Kochel's [I can Variable Font](https://github.com/scribbletone/i-can-variable-font) super-helpful throughout this process.
+I've found Travis Kochel's [I Can Variable Font](https://github.com/scribbletone/i-can-variable-font) super-helpful throughout this process.
 
-And [Wakamai Fondue](https://wakamaifondue.com/) is indispensable for testing variable fonts.
+[Wakamai Fondue](https://wakamaifondue.com/) is indispensable for testing variable fonts.
+
+And I used [my own Glytter tool](https://hellogreg.github.io/glytter/) to view/copy/paste all the font's characters for the sample page.
 
 ## Credits/Licensing
 
 Firava and Fira Sans are licensed under the SIL Open Font License, Version 1.1:
-http://scripts.sil.org/OFL
+[http://scripts.sil.org/OFL](http://scripts.sil.org/OFL)
 
 Digital data for Fira Sans is copyright (c) 2012-2015, The Mozilla Foundation and Telefonica S.A.
 
-Firava was produced by Greg Gibson ([@hellogreg](https://twitter.com/hellogreg/))
+Firava was produced by Greg Finn Gibson ([@hellogreg](https://twitter.com/hellogreg/)).
