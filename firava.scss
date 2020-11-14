@@ -55,9 +55,10 @@
 // MEDIA QUERIES AND JAVASCRIPT HOOKS
 //
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   :root {
     --font-size-base: 137.5%;
+    --slider-width: 10rem;
   }
 }
 
@@ -111,20 +112,13 @@ input, button, textarea, select {
   font: inherit;
 }
 
+input[type=range] {
+  width: var(--slider-width, 6rem);
+}
+
 label {
   margin-right: 1rem;
   user-select: none;
-}
-
-.slidelabel {
-  margin-right: .5rem;
-}
-
-#slidevalue {
-  background-color: #fe14;
-  font-weight: 500;
-  margin-left: .5rem;
-  padding: 0 .125rem;
 }
 
 a:not([class]) {
@@ -189,6 +183,23 @@ p {
 
 .overview p {
   margin-top: 1rem;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .25rem;
+}
+
+.slidelabel {
+  margin-right: .5rem;
+}
+
+#slidevalue {
+  background-color: #fe14;
+  font-weight: 500;
+  margin-left: .5rem;
+  padding: 0 .125rem;
 }
 
 h3, .samples p {

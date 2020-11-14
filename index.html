@@ -20,21 +20,26 @@
     </header>
     <main>
       <article class="overview">
-        <p><em>Firava adapts Mozilla's open source Fira Sans typeface into a variable version. You can try it out here and <a href="https://github.com/hellogreg/firava">view the project on Github</a><!-- and <a href="https://hellogreg.netlify.app/">see Firava in use at my personal site</a>-->.</em></p>
-        <p>
-          <input id="checkdark" type="checkbox">
-          <label for="checkdark">Dark mode</label>
-          <input id="checkitalic" type="checkbox">
-          <label for="checkitalic">Italic</label>
-          <label for="slideweight" class="slidelabel">Font-weight:</label>100<input type="range" id="slideweight" name="slideweight" min="100" max="900" value="400" step="10">900 <span id="slidevalue">400</span>
-        </p>
+        <p><em>Firava adapts Mozilla's open source Fira Sans typeface into a variable version. You can try it out here and <a href="https://github.com/hellogreg/firava">view the project on GitHub</a>.</em></p>
+        <section id="controls">
+          <div>
+            <input id="checkdark" type="checkbox">
+            <label for="checkdark">Dark mode</label> </div>
+          <div>
+            <input id="checkitalic" type="checkbox">
+            <label for="checkitalic">Italic</label>
+          </div>
+          <div>
+            <label for="slideweight" class="slidelabel">Font-weight:</label>100<input type="range" id="slideweight" name="slideweight" min="100" max="900" value="400" step="10">900 <span id="slidevalue">400</span>
+          </div>
+        </section>
       </article>
       <article class="samples">
         <h2>Sample Text (click to edit)</h2>
         <!--<h3 contenteditable="true">Our Mutual Friend</h3>-->
         <p contenteditable="true">Mr Boffin having been several times in communication with this clerkly essence, both on its own ground and at the Bower, had no difficulty in identifying it when he saw it up in its dusty eyrie. To the second floor on which the window was situated, he ascended, much pre-occupied in mind by the uncertainties besetting the Roman Empire, and much regretting the death of the amiable Pertinax: who only last night had left the Imperial affairs in a state of great confusion, by falling a victim to the fury of the praetorian guards.</p>
         <h2>Character Map</h2>
-        <p class="charmap">A Á Ă Â Ä À Ā Ą Å Ã Æ B C Ć Č Ç Ċ D Ð Ď Đ E É Ě Ê Ë Ė È Ē Ę F G Ğ Ģ Ġ H Ħ I Í Î Ï İ Ì Ī Į J K Ķ L Ĺ Ľ Ļ Ŀ Ł M N Ń Ň Ņ Ŋ Ñ O Ó Ô Ö Ò Ő Ō Ø Õ Œ P Þ Q R Ŕ Ř Ŗ S Ś Š Ş Ș T Ŧ Ť Ţ Ț U Ú Û Ü Ù Ű Ū Ų Ů V W Ẃ Ŵ Ẅ Ẁ X Y Ý Ŷ Ÿ Ỳ Z Ź Ž Ż a á ă â ä à ā ą å ã æ b c ć č ç ċ d ð ď đ e é ě ê ë ė è ē ę f g ğ ģ ġ h ħ i í î ï ì ī į j k ķ l ĺ ľ ļ ŀ ł m n ń ŉ ň ņ ŋ ñ o ó ô ö ò ő ō ø õ œ p þ q r ŕ ř ŗ s ś š ş ș ß t ŧ ť ţ ț u ú û ü ù ű ū ų ů v w ẃ ŵ ẅ ẁ x y ý ŷ ÿ ỳ z ź ž ż ﬁ ﬂ 0 1 2 3 4 5 6 7 8 9 ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁄ ⅟ ½ ⅓ ⅔ ¼ ¾ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞ . , : ; … ! ¡ ? ¿ · • * ‖ # / \ ⁊ ‿ ₍ ₎ ( ) { } [ ] ⁽ ⁾ - ­ – — ― ‒ _ ‚ „ “ ” ‘ ’ « » ‹ › " ' · ;       ​ ‎ ‏ ‍ ‌ ﻿ ¢ ¤ $ ₯ € ƒ ₺ ₽ ₹ £ ¥ ∙ ∕ ⋅ ⦙ ₌ ⁼ ₋ ⁻ + − × ÷ = ≠ > < ≥ ≤ ± ≈ ~ ¬ ^ ∅ ∞ ∫ Ω ∆ ∏ ∑ √ µ ∂ % ‰ ₊ ⁺ ↑ → ↓ ← ⇧ ⇨ ⇩ ⇦ ◊ ▯ @ & ¶ § © ® ™ ° | ¦ ℓ † ‡ ℮ № ⇪ ⌧ ⌫ ⌦ ⌨ ⏎ ꞉ ˮ ˗ ˖ ˞ ꞊ ˥ ˩ ˦ ˨ ˧ ˔ ˤ ϶ ʹ ͵ ˠ ̈ ̇ ̀ ́ ̋ ̂ ̌ ̆ ̊ ̃ ̄ ̒ ̦ ̧ ̨ ¨ ˙ ` ´ ˝ ˆ ˇ ˘ ˚ ˜ ¯ ¸ ˛</p>
+        <p class="charmap">A Á Ă Â Ä À Ā Ą Å Ã Æ B C Ć Č Ç Ċ D Ð Ď Đ E É Ě Ê Ë Ė È Ē Ę F G Ğ Ģ Ġ H Ħ I Í Î Ï İ Ì Ī Į J K Ķ L Ĺ Ľ Ļ Ŀ Ł M N Ń Ň Ņ Ŋ Ñ O Ó Ô Ö Ò Ő Ō Ø Õ Œ P Þ Q R Ŕ Ř Ŗ S Ś Š Ş Ș T Ŧ Ť Ţ Ț U Ú Û Ü Ù Ű Ū Ų Ů V W Ẃ Ŵ Ẅ Ẁ X Y Ý Ŷ Ÿ Ỳ Z Ź Ž Ż a á ă â ä à ā ą å ã æ b c ć č ç ċ d ð ď đ e é ě ê ë ė è ē ę f g ğ ģ ġ h ħ i í î ï ì ī į j k ķ l ĺ ľ ļ ŀ ł m n ń ŉ ň ņ ŋ ñ o ó ô ö ò ő ō ø õ œ p þ q r ŕ ř ŗ s ś š ş ș ß t ŧ ť ţ ț u ú û ü ù ű ū ų ů v w ẃ ŵ ẅ ẁ x y ý ŷ ÿ ỳ z ź ž ż ﬁ ﬂ 0 1 2 3 4 5 6 7 8 9 ₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁄ ⅟ ½ ⅓ ⅔ ¼ ¾ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞ . , : ; … ! ¡ ? ¿ · • * ‖ # / \ ⁊ ‿ ₍ ₎ ( ) { } [ ] ⁽ ⁾ - ­ – — ― ‒ _ ‚ „ “ ” ‘ ’ « » ‹ › " ' · ;     ​ ‎ ‏ ‍ ‌ ﻿ ¢ ¤ $ ₯ € ƒ ₺ ₽ ₹ £ ¥ ∙ ∕ ⋅ ⦙ ₌ ⁼ ₋ ⁻ + − × ÷ = ≠ > < ≥ ≤ ± ≈ ~ ¬ ^ ∅ ∞ ∫ Ω ∆ ∏ ∑ √ µ ∂ % ‰ ₊ ⁺ ↑ → ↓ ← ⇧ ⇨ ⇩ ⇦ ◊ ▯ @ & ¶ § © ® ™ ° | ¦ ℓ † ‡ ℮ № ⇪ ⌧ ⌫ ⌦ ⌨ ⏎ ꞉ ˮ ˗ ˖ ˞ ꞊ ˥ ˩ ˦ ˨ ˧ ˔ ˤ ϶ ʹ ͵ ˠ ̈ ̇ ̀ ́ ̋ ̂ ̌ ̆ ̊ ̃ ̄ ̒ ̦ ̧ ̨ ¨ ˙ ` ´ ˝ ˆ ˇ ˘ ˚ ˜ ¯ ¸ ˛</p>
       </article>
     </main>
     <footer>&nbsp;</footer>
