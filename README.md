@@ -6,6 +6,8 @@ Current version: 5.000 (Previous Fira Sans version was 4.202).
 
 **[View the sample page.](https://firava.netlify.app/)**
 
+**Download the .ttf/.woff2 fonts from [the /fonts folder](https://github.com/hellogreg/firava/tree/main/fonts) here.**
+
 ## Features
 
 * The typeface includes regular and italic styles.
