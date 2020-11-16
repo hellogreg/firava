@@ -4,7 +4,7 @@ Firava adapts Mozilla's open source [Fira Sans](https://github.com/mozilla/Fira)
 
 **[View the sample page.](https://firava.netlify.app/)**
 
-**Download the .ttf/.woff2 fonts from [the /fonts folder](https://github.com/hellogreg/firava/tree/main/fonts) here.**
+**Download the .woff2, .tff, and Base64 (embedded in .css) fonts from [the /fonts folder](https://github.com/hellogreg/firava/tree/main/fonts) here.**
 
 ## Features
 
