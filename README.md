@@ -29,8 +29,7 @@ And I used [my own Glytter tool](https://hellogreg.github.io/glytter/) to view/c
 
 ## Credits/Licensing
 
-Firava and Fira Sans are licensed under the SIL Open Font License, Version 1.1:
-[http://scripts.sil.org/OFL](http://scripts.sil.org/OFL).
+Firava and Fira Sans are licensed under the [SIL Open Font License, Version 1.1](http://scripts.sil.org/OFL).
 
 Fira Sans digital data is ©2012-15, The Mozilla Foundation and Telefonica S.A.
 
